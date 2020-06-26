@@ -19,7 +19,7 @@ class TagPost(Post):
 
 
 class MentionPost(Post):
-    def create_mention_post(self, database, post_message):
+    def create_post(self, database, post_message):
         user = parse_user(post_message)
         database.notify_user(user)
         super().create_post(database, post_message)
