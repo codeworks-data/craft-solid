@@ -26,6 +26,12 @@ in the near future.
 
 ## L: 
 
+Liskov substitution principle.
+
+You should be able to use a subclass instead of its parent without changing the logic of the program.
+
+Refactor the function in L.py to respect this principle. (there is an issue with MentionPost)
+
 ## I
 
 ## D

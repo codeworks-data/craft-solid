@@ -8,3 +8,11 @@ class Database:
         else:
             return False
 
+    def add(self, message):
+        pass
+
+    def add_as_tag(self, message):
+        pass
+
+    def get_unhandled_posts(self):
+        pass
