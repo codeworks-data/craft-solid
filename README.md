@@ -34,4 +34,12 @@ Refactor the function in L.py to respect this principle. (there is an issue with
 
 ## I
 
+Interface segregation principle.
+
+A client should not be forced to implement an interface that it does not use.
+
+Refactor the classes in I.py to respect this principle.
+In this example, the Circle and Square classes both have to implement a method that doesn't make sense for them.
+You want to change that. Both Circle and Square should be able to print themselves without using empty methods.
+
 ## D
